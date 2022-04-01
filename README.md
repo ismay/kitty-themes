@@ -1,5 +1,5 @@
 # kitty themes
 
-Theme names need to match the filename (without extension).
+Data source filename needs to match the theme name.
 
 - [srcery](https://github.com/srcery-colors/srcery-terminal)
