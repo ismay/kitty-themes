@@ -1,0 +1,25 @@
+name: one
+
+foreground: '#a1a7b3'
+background: '#1e2127'
+cursor:     '#a1a7b3'
+
+# Regular colors
+black:      '#474759'
+red:        '#e07070'
+green:      '#97c278'
+yellow:     '#d19a66'
+blue:       '#62b0f0'
+purple:     '#c678de'
+cyan:       '#55b5c2'
+white:      '#d1dbe6'
+
+# Bright colors
+brblack:    '#717a8a'
+brred:      '#fa7883'
+brgreen:    '#abdb88'
+bryellow:   '#ebad73'
+brblue:     '#4fa7ff'
+brpurple:   '#dd86f7'
+brcyan:     '#60cddb'
+brwhite:    '#ffffff'
