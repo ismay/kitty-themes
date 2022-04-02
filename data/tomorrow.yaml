@@ -1,0 +1,25 @@
+name: tomorrow
+
+foreground: '#c5c8c6'
+background: '#1d1f21'
+cursor:     '#c5c8c6'
+
+# Regular colors
+black:      '#555a60'
+red:        '#cc6666'
+green:      '#b5bd68'
+yellow:     '#f0c674'
+blue:       '#81a2be'
+purple:     '#b294bb'
+cyan:       '#8abeb7'
+white:      '#d5d8d6'
+
+# Bright colors
+brblack:    '#8a8b8a'
+brred:      '#cc8585'
+brgreen:    '#b9bd96'
+bryellow:   '#f0d7a6'
+brblue:     '#a4b2be'
+brpurple:   '#c1adc7'
+brcyan:     '#a9cec9'
+brwhite:    '#ffffff'
