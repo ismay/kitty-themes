@@ -1,0 +1,25 @@
+name: american-psycho
+
+foreground: '#fcf3e3'
+background: '#0b0b0a'
+cursor:     '#fcb00f'
+
+# Regular colors
+black:      '#494641'
+red:        '#ef2219'
+green:      '#32bb2f'
+yellow:     '#fcb00f'
+blue:       '#1071cc'
+purple:     '#de3270'
+cyan:       '#02b3b8'
+white:      '#d3bbaa'
+
+# Bright colors
+brblack:    '#9e9990'
+brred:      '#f04040'
+brgreen:    '#85c14c'
+bryellow:   '#fed06e'
+brblue:     '#68a8e4'
+brpurple:   '#ff6a99'
+brcyan:     '#53fde9'
+brwhite:    '#fcf3e3'
