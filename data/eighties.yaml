@@ -1,0 +1,25 @@
+name: eighties
+
+foreground: '#d3d0c8'
+background: '#232323'
+cursor:     '#d3d0c8'
+
+# Regular colors
+black:      '#4a4943'
+red:        '#f2777a'
+green:      '#99cc99'
+yellow:     '#ffcc66'
+blue:       '#6699cc'
+purple:     '#cc99cc'
+cyan:       '#66cccc'
+white:      '#d3d0c8'
+
+# Bright colors
+brblack:    '#747369'
+brred:      '#f2777a'
+brgreen:    '#99cc99'
+bryellow:   '#ffcc66'
+brblue:     '#6699cc'
+brpurple:   '#cc99cc'
+brcyan:     '#66cccc'
+brwhite:    '#f2f0ec'
