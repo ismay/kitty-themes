@@ -1,0 +1,25 @@
+name: outrun
+
+foreground: '#d0d0fa'
+background: '#000014'
+cursor:     '#d0d0fa'
+
+# Regular colors
+black:      '#3838cd'
+red:        '#ff4242'
+green:      '#59f176'
+yellow:     '#f3e877'
+blue:       '#66b0ff'
+purple:     '#f10596'
+cyan:       '#0ef0f0'
+white:      '#e8e8fa'
+
+# Bright colors
+brblack:    '#6d6df6'
+brred:      '#ff7777'
+brgreen:    '#b6f8c3'
+bryellow:   '#f3edaa'
+brblue:     '#a1cfff'
+brpurple:   '#f17ac3'
+brcyan:     '#a5ffff'
+brwhite:    '#ffffff'
