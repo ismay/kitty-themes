@@ -1,0 +1,25 @@
+name: adventure-time
+
+foreground: '#f8dcc0'
+background: '#1f1d45'
+cursor:     '#f8dcc0'
+
+# Regular colors
+black:      '#050404'
+red:        '#bd0013'
+green:      '#4ab118'
+yellow:     '#e7741e'
+blue:       '#0f4ac6'
+purple:     '#665993'
+cyan:       '#70a598'
+white:      '#f8dcc0'
+
+# Bright colors
+brblack:    '#4e7cbf'
+brred:      '#fc5f5a'
+brgreen:    '#9eff6e'
+bryellow:   '#efc11a'
+brblue:     '#1997c6'
+brpurple:   '#9b5953'
+brcyan:     '#c8faf4'
+brwhite:    '#f6f5fb'
