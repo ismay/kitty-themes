@@ -1,0 +1,25 @@
+name: solarized
+
+foreground: '#a2b2b2'
+background: '#00171d'
+cursor:     '#a2b2b2'
+
+# Regular colors
+black:      '#004152'
+red:        '#dc322f'
+green:      '#859900'
+yellow:     '#b58900'
+blue:       '#268bd2'
+purple:     '#6c71c4'
+cyan:       '#2aa198'
+white:      '#dddad0'
+
+# Bright colors
+brblack:    '#1c6779'
+brred:      '#e55d5b'
+brgreen:    '#a6b447'
+bryellow:   '#c2a447'
+brblue:     '#5aaae2'
+brpurple:   '#9093cc'
+brcyan:     '#6dbeb8'
+brwhite:    '#fffdf6'
