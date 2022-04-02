@@ -1,0 +1,25 @@
+name: gotham
+
+foreground: '#98d1ce'
+background: '#000000'
+cursor:     '#98d1ce'
+
+# Regular colors
+black:      '#213243'
+red:        '#c33027'
+green:      '#26a98b'
+yellow:     '#edb54b'
+blue:       '#195465'
+purple:     '#4e5165'
+cyan:       '#33859d'
+white:      '#c3dad8'
+
+# Bright colors
+brblack:    '#2c4764'
+brred:      '#e9433a'
+brgreen:    '#27c2a8'
+bryellow:   '#ffc861'
+brblue:     '#2a7b92'
+brpurple:   '#787d9b'
+brcyan:     '#53b2cd'
+brwhite:    '#e5fffd'
