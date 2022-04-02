@@ -1,0 +1,25 @@
+name: zenburn
+
+foreground: '#dcdccc'
+background: '#3f3f3f'
+cursor:     '#dcdccc'
+
+# Regular colors
+black:      '#4d4d4d'
+red:        '#ba7171'
+green:      '#60b48a'
+yellow:     '#e0cf9f'
+blue:       '#6c8db0'
+purple:     '#d271b4'
+cyan:       '#64afb2'
+white:      '#dcdccc'
+
+# Bright colors
+brblack:    '#7c7c7c'
+brred:      '#dca3a3'
+brgreen:    '#a8d6bf'
+bryellow:   '#f0e4c3'
+brblue:     '#94bff3'
+brpurple:   '#ec93d3'
+brcyan:     '#93e0e3'
+brwhite:    '#ffffff'
