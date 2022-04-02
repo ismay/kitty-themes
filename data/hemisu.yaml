@@ -1,0 +1,25 @@
+name: hemisu
+
+foreground: '#FFFFFF'
+background: '#000000'
+cursor:     '#BAFFAA'
+
+# Regular colors
+black:      '#444444'
+red:        '#FF0054'
+green:      '#B1D630'
+yellow:     '#9D895E'
+blue:       '#67BEE3'
+purple:     '#B576BC'
+cyan:       '#569A9F'
+white:      '#EDEDED'
+
+# Bright colors
+brblack:    '#777777'
+brred:      '#D65E75'
+brgreen:    '#BAFFAA'
+bryellow:   '#ECE1C8'
+brblue:     '#9FD3E5'
+brpurple:   '#DEB3DF'
+brcyan:     '#B6E0E5'
+brwhite:    '#FFFFFF'
