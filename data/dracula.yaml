@@ -1,0 +1,25 @@
+name: dracula
+
+foreground: '#f8f8f2'
+background: '#1d1f28'
+cursor:     '#f8f8f2'
+
+# Regular colors
+black:      '#444444'
+red:        '#ff5555'
+green:      '#50fa7b'
+yellow:     '#f1fa8c'
+blue:       '#bd93f9'
+purple:     '#ff79c6'
+cyan:       '#8be9fd'
+white:      '#bfbfbf'
+
+# Bright colors
+brblack:    '#636363'
+brred:      '#ff6e67'
+brgreen:    '#5af78e'
+bryellow:   '#f4f99d'
+brblue:     '#caa9fa'
+brpurple:   '#ff92d0'
+brcyan:     '#9aedfe'
+brwhite:    '#e6e6e6'
