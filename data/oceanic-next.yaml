@@ -1,0 +1,25 @@
+name: oceanic-next
+
+foreground: '#c0c5ce'
+background: '#1b2b34'
+cursor:     '#c0c5ce'
+
+# Regular colors
+black:      '#3f6479'
+red:        '#ec5f67'
+green:      '#99c794'
+yellow:     '#fac863'
+blue:       '#6699cc'
+purple:     '#c594c5'
+cyan:       '#5fb3b3'
+white:      '#bec3cc'
+
+# Bright colors
+brblack:    '#8696a3'
+brred:      '#ec8a90'
+brgreen:    '#b9c7b8'
+bryellow:   '#fad996'
+brblue:     '#94b0cc'
+brpurple:   '#c5b3c5'
+brcyan:     '#92b3b3'
+brwhite:    '#d8dee9'
