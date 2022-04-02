@@ -1,22 +1,22 @@
 ## name: {{ (datasource "theme").name }}
 
 #: The basic colors
-foreground                      {{ (datasource "theme").color15 }}
+foreground                      {{ (datasource "theme").foreground }}
 background                      {{ (datasource "theme").background }}
 selection_foreground            {{ (datasource "theme").background }}
-selection_background            {{ (datasource "theme").color15 }}
+selection_background            {{ (datasource "theme").foreground }}
 
 #: Cursor colors
-cursor                          {{ (datasource "theme").color7 }}
+cursor                          {{ (datasource "theme").cursor }}
 cursor_text_color               {{ (datasource "theme").background }}
 
 #: URL underline color when hovering with mouse
-url_color                       {{ (datasource "theme").color4 }}
+url_color                       {{ (datasource "theme").blue }}
 
 #: kitty window border colors and terminal bell colors
-active_border_color             {{ (datasource "theme").color2 }}
-inactive_border_color           {{ (datasource "theme").color15 }}
-bell_border_color               {{ (datasource "theme").color2 }}
+active_border_color             {{ (datasource "theme").green }}
+inactive_border_color           {{ (datasource "theme").brwhite }}
+bell_border_color               {{ (datasource "theme").green }}
 visual_bell_color               none
 
 #: OS Window titlebar colors
@@ -24,12 +24,12 @@ wayland_titlebar_color          system
 macos_titlebar_color            system
 
 #: Tab bar colors
-active_tab_foreground           {{ (datasource "theme").color15 }}
-active_tab_background           {{ (datasource "theme").color8 }}
-inactive_tab_foreground         {{ (datasource "theme").color7 }}
-inactive_tab_background         {{ (datasource "theme").color8 }}
-tab_bar_background              {{ (datasource "theme").color8 }}
-tab_bar_margin_color            {{ (datasource "theme").color8 }}
+active_tab_foreground           {{ (datasource "theme").brwhite }}
+active_tab_background           {{ (datasource "theme").brblack }}
+inactive_tab_foreground         {{ (datasource "theme").white }}
+inactive_tab_background         {{ (datasource "theme").brblack }}
+tab_bar_background              {{ (datasource "theme").brblack }}
+tab_bar_margin_color            {{ (datasource "theme").brblack }}
 
 #: Colors for marks (marked text in the terminal)
 # mark1_foreground black
@@ -40,34 +40,26 @@ tab_bar_margin_color            {{ (datasource "theme").color8 }}
 # mark3_background #f274bc
 
 #: The basic 16 colors
-#: black
-color0  {{ (datasource "theme").color0 }}
-color8  {{ (datasource "theme").color8 }}
+color0  {{ (datasource "theme").black }}
+color8  {{ (datasource "theme").brblack }}
 
-#: red
-color1  {{ (datasource "theme").color1 }}
-color9  {{ (datasource "theme").color9 }}
+color1  {{ (datasource "theme").red }}
+color9  {{ (datasource "theme").brred }}
 
-#: green
-color2  {{ (datasource "theme").color2 }}
-color10 {{ (datasource "theme").color10 }}
+color2  {{ (datasource "theme").green }}
+color10 {{ (datasource "theme").brgreen }}
 
-#: yellow
-color3  {{ (datasource "theme").color3 }}
-color11 {{ (datasource "theme").color11 }}
+color3  {{ (datasource "theme").yellow }}
+color11 {{ (datasource "theme").bryellow }}
 
-#: blue
-color4  {{ (datasource "theme").color4 }}
-color12 {{ (datasource "theme").color12 }}
+color4  {{ (datasource "theme").blue }}
+color12 {{ (datasource "theme").brblue }}
 
-#: magenta
-color5  {{ (datasource "theme").color5 }}
-color13 {{ (datasource "theme").color13 }}
+color5  {{ (datasource "theme").purple }}
+color13 {{ (datasource "theme").brpurple }}
 
-#: cyan
-color6  {{ (datasource "theme").color6 }}
-color14 {{ (datasource "theme").color14 }}
+color6  {{ (datasource "theme").cyan }}
+color14 {{ (datasource "theme").brcyan }}
 
-#: white
-color7  {{ (datasource "theme").color7 }}
-color15 {{ (datasource "theme").color15 }}
+color7  {{ (datasource "theme").white }}
+color15 {{ (datasource "theme").brwhite }}
