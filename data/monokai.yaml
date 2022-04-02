@@ -1,0 +1,25 @@
+name: monokai
+
+foreground: '#f1ebeb'
+background: '#272822'
+cursor:     '#f1ebeb'
+
+# Regular colors
+black:      '#48483e'
+red:        '#dc2566'
+green:      '#8fc029'
+yellow:     '#d4c96e'
+blue:       '#55bcce'
+purple:     '#9358fe'
+cyan:       '#56b7a5'
+white:      '#acada1'
+
+# Bright colors
+brblack:    '#76715e'
+brred:      '#fa2772'
+brgreen:    '#a7e22e'
+bryellow:   '#e7db75'
+brblue:     '#66d9ee'
+brpurple:   '#ae82ff'
+brcyan:     '#66efd5'
+brwhite:    '#cfd0c2'
