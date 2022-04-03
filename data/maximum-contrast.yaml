@@ -1,0 +1,25 @@
+name: maximum-contrast
+
+foreground: '#ffffff'
+background: '#000000'
+cursor:     '#ffffff'
+
+# Regular colors
+black:      '#000000'
+red:        '#ff8080'
+green:      '#80ff80'
+yellow:     '#ffff80'
+blue:       '#8080ff'
+purple:     '#ff80ff'
+cyan:       '#80ffff'
+white:      '#bfbfbf'
+
+# Bright colors
+brblack:    '#404040'
+brred:      '#ff0000'
+brgreen:    '#00ff00'
+bryellow:   '#ffff00'
+brblue:     '#0000ff'
+brpurple:   '#ff00ff'
+brcyan:     '#00ffff'
+brwhite:    '#ffffff'
