@@ -1,3 +1,4 @@
+# https://sashamaps.net/docs/resources/20-colors
 name: maximum-contrast
 
 foreground: '#ffffff'
@@ -6,20 +7,20 @@ cursor:     '#ffffff'
 
 # Regular colors
 black:      '#000000'
-red:        '#ff8080'
-green:      '#80ff80'
-yellow:     '#ffff80'
-blue:       '#8080ff'
-purple:     '#ff80ff'
-cyan:       '#80ffff'
-white:      '#bfbfbf'
+red:        '#e6194b'
+green:      '#3cb44b'
+yellow:     '#ffe119'
+blue:       '#4363d8'
+purple:     '#911eb4'
+cyan:       '#42d4f4'
+white:      '#a9a9a9'
 
 # Bright colors
-brblack:    '#404040'
-brred:      '#ff0000'
-brgreen:    '#00ff00'
-bryellow:   '#ffff00'
-brblue:     '#0000ff'
-brpurple:   '#ff00ff'
-brcyan:     '#00ffff'
+brblack:    '#a9a9a9'
+brred:      '#fabed4'
+brgreen:    '#bfef45'
+bryellow:   '#fffac8'
+brblue:     '#469990'
+brpurple:   '#dcbeff'
+brcyan:     '#aaffc3'
 brwhite:    '#ffffff'
