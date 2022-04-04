@@ -1,6 +1,4 @@
 # https://sashamaps.net/docs/resources/20-colors
-name: maximum-contrast
-
 foreground: '#ffffff'
 background: '#000000'
 cursor:     '#ffffff'

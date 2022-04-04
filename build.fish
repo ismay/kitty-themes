@@ -1,18 +1,23 @@
 #!/usr/bin/env fish
 
+if ! type -q gucci
+  echo "This script needs gucci to be installed"
+  echo "Get it from https://github.com/noqcks/gucci"
+  return
+end
+
 for data_source in (status dirname)/data/*.yaml
-  if ! type -q gomplate
-    echo "This script needs gomplate to be installed"
-    return
-  end
+  # Export it so gucci can use it as well
+  set -lx THEME_NAME (basename $data_source .yaml)
+  set -l current_dir (status dirname)
 
-  gomplate \
-    -d theme="$data_source" \
-    -f ./templates/kitty.tmpl \
-    -o "./"(basename $data_source .yaml)".conf"
+  gucci \
+    -f "$data_source" \
+    "$current_dir/templates/kitty.tpl" \
+    > "$current_dir/$THEME_NAME.conf"
 
-  gomplate \
-    -d theme="$data_source" \
-    -f ./templates/xresources.tmpl \
-    -o "./"(basename $data_source .yaml)".xresources"
+  gucci \
+    -f "$data_source" \
+    "$current_dir/templates/xresources.tpl" \
+    > "$current_dir/$THEME_NAME.xresources"
 end
