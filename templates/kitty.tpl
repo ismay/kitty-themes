@@ -7,7 +7,7 @@ selection_foreground            {{ .background }}
 selection_background            {{ .foreground }}
 
 #: Cursor colors
-cursor                          {{ .cursor }}
+cursor                          {{ .bryellow }}
 cursor_text_color               {{ .background }}
 
 #: URL underline color when hovering with mouse
