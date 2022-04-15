@@ -14,9 +14,9 @@ cursor_text_color               {{ .background }}
 url_color                       {{ .blue }}
 
 #: kitty window border colors and terminal bell colors
-active_border_color             {{ .green }}
+active_border_color             {{ .brgreen }}
 inactive_border_color           {{ .brwhite }}
-bell_border_color               {{ .green }}
+bell_border_color               {{ .brgreen }}
 visual_bell_color               none
 
 #: OS Window titlebar colors
