@@ -7,16 +7,16 @@ selection_foreground            {{ .background }}
 selection_background            {{ .foreground }}
 
 #: Cursor colors
-cursor                          {{ .bryellow }}
+cursor                          {{ .cursor }}
 cursor_text_color               {{ .background }}
 
 #: URL underline color when hovering with mouse
 url_color                       {{ .blue }}
 
 #: kitty window border colors and terminal bell colors
-active_border_color             {{ .bryellow }}
+active_border_color             {{ .brgreen }}
 inactive_border_color           {{ .brblack }}
-bell_border_color               {{ .bryellow }}
+bell_border_color               {{ .brgreen }}
 visual_bell_color               none
 
 #: OS Window titlebar colors
